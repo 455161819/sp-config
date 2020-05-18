@@ -2,6 +2,9 @@
 spring:
   application:
     name: zuul
+  cloud:
+    config:
+      override-none: true
     
 server:
   port: 3001
@@ -16,7 +19,7 @@ zuul:
     item-service: /item-service/**
     user-service: /user-service/**
     order-service: /order-service/**
-  retryable: true  #启动重试
+  retryable: true  #鍚姩閲嶈瘯
   
 ribbon:
   ConnectTimeout: 1000
@@ -30,4 +33,4 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 1000  #1秒钟超时就返回降级代码（默认是1秒）
+            timeoutInMilliseconds: 1000  #1绉掗挓瓒呮椂灏辫繑鍥為檷绾т唬鐮侊紙榛樿鏄�1绉掞級
