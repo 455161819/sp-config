@@ -24,7 +24,7 @@ zuul:
     item-service: /item-service/**
     user-service: /user-service/**
     order-service: /order-service/**
-  retryable: true  #鍚姩閲嶈瘯
+  retryable: true 
   
 ribbon:
   ConnectTimeout: 1000
