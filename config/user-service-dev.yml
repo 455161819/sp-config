@@ -3,6 +3,7 @@ sp:
   user-service:
     users: "[{\"id\":7, \"username\":\"abc\",\"password\":\"123\"},{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"},{\"id\":99, \"username\":\"aaa\",\"password\":\"111\"},{\"id\":102, \"username\":\"a102a\",\"password\":\"102\"}]"
 
+
 spring:
   application:
     name: user-service
@@ -24,8 +25,8 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
   instance:
-    prefer-ip-address: true # 使用ip进行注册
-    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port} # 界面列表中显示的格式也显示ip
+    prefer-ip-address: true # 使锟斤拷ip锟斤拷锟斤拷注锟斤拷
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port} # 锟斤拷锟斤拷锟叫憋拷锟斤拷锟斤拷示锟侥革拷式也锟斤拷示ip
   
       
       

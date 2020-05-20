@@ -42,4 +42,4 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 1000  #1绉掗挓瓒呮椂灏辫繑鍥為檷绾т唬鐮侊紙榛樿鏄�1绉掞級
+            timeoutInMilliseconds: 1000  
